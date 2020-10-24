@@ -16,15 +16,15 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
 
   app.get( "/filteredimage", async ( req, res ) => {
       
-   let imgurl=req.query.image_url;
+   let imageurl=req.query.image_url;
 
-    if(!imgurl)
+    if(!imageurl)
       {
         
         return  res.status(400).send({ message: 'Please enter the image url' }); 
       }
 
-    let filteredimage=filterImageFromURL(imgurl)
+    let filteredimage=filterImageFromURL(imageurl)
     
 
     let imgpathsarr:string []
