@@ -21,7 +21,7 @@ import {filterImageFromURL, deleteLocalFiles} from './util/util';
     if(!imgurl)
       {
         
-        return  res.status(400).send({ message: 'Please enter the image url' }); 
+        return  res.status(422).send({ message: 'Please enter the image url' }); 
       }
 
     let filteredimage=filterImageFromURL(imgurl)
