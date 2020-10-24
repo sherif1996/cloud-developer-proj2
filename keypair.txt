@@ -1,0 +1,21 @@
+Your public key has been saved in C:\Users\z00465kc\.ssh\udagram-filter.pub.
+The key fingerprint is:
+SHA256:qggdP9b5uFyLaepd7VuhgH1q6E1V35e9qn8WTP3ts0w udagram-filter
+The key's randomart image is:
++---[RSA 2048]----+
+|                 |
+|                 |
+|            .   .|
+|       o   . . o+|
+|  .   . S o . +.*|
+| . o . + * . . o=|
+|. . + = * o .  E.|
+| . o *.@ o .  ++.|
+|  ..+oO.+ ooooooo|
++----[SHA256]-----+
+
+key-pair: udagram-filter
+passphrase: myfilter
+
+
+git config --global user.email "sherifgamil96@aucegypt.edu"
